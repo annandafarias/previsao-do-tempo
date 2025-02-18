@@ -27,7 +27,7 @@ Primeiro, fui atrás de uma API de previsão do tempo para utilizar em minha apl
 
 
 
-<h4 align="center"> :white_check_mark: Projeto concluído </h4>
+<h4> :white_check_mark: Projeto concluído </h4>
 
 
 
