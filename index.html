@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="botao-busca" onclick="cliqueiNoBotao()">
+            <img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca">
+        </button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em </h2>
+
+            <p class="temp"></p>
+            <p class="temp-min"></p>
+            <p class="temp-max"></p>
+            <p class="sensacao"></p>
+
+            <div class="caixa-menor">
+                <img  class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">
+                <p class="texto-previsao">Ensolarado</p>
+            </div>
+
+            <p class="umidade">Umidade: </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
